@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Okechukwu Ibeawuchi">
+    <meta name="description" content="Free Pixel Art Maker">
+    <meta name="keywords" content="Free Pixel Art Maker, Pixel Art Maker, Pixel Art, Art Maker">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="1.PNG">
+    <title>NOVEE - Pixel Art Maker</title>
+</head>
+<body>
+    <header id="header">
+        <h1 id="novee"><a href="index.html">NOVEE</a></h1>
+        <em>...Brings you closer to your future.</em>
+    </header>
+    <h2 id="pixel">PIXEL ART MAKER</h2>
+    <div id="mode">
+        <input type="checkbox" id="toggle">
+        <label for="toggle">
+            <img src="dark.png" alt="dark mode">
+        </label>
+    </div>
+    <div id="container">
+        <form id="form">
+            <div id="option">
+                <div id="gridheight">
+                <label for="height">Grid height:</label><br>
+                    <input type="range" id="height" max="80" min="0" value="0">
+                    <span id="hvalue">00</span>
+                </div>
+                <div id="gridwidth">
+                    <label for="width">Grid width:</label><br>
+                    <input type="range" id="width" max="80" min="0" value="0">
+                    <span id="wvalue">00</span>
+                </div>
+            </div>
+            <div id="option">
+                <div>
+                <button id="create" type="reset">Create</button>
+                <button id="clear">Clear </button>
+            </div>
+            <div>
+                <input type="color" name="" id="color">
+            </div>
+            <div>
+                <button id="paint">Paint</button>
+                <button id="erase">Erase</button>
+            </div>
+        </div>
+        </form>
+    </div>
+    <div id="tdiv"><table id="canvas"></table></div>
+    <footer id="footer">
+        <p id="footer1"">More from NOVEE:</p>
+        <span id="footer2""><a href="https://okechukwu01.github.io/BMI-Calculator/" target="_blank">BMI Calculator</a></span>
+        <span id="footer3""><a href="https://okechukwu01.github.io/S.I-Calculator" target="_blank">Simple Interest Calculator</a></span>
+        <hr>
+        <p id="footer4">NOVEE. All rights reserved. Copyright &copy; 2023</p>
+        <P id="footer5">Made by Okechukwu</P>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
